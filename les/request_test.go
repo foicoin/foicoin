@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/core"
+	"github.com/foicoin/foicoin/crypto"
+	"github.com/foicoin/foicoin/eth"
+	"github.com/foicoin/foicoin/ethdb"
+	"github.com/foicoin/foicoin/light"
 )
 
 var testBankSecureTrieKey = secAddr(testBankAddress)

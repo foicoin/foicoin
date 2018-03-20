@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/core/vm"
+	"github.com/foicoin/foicoin/params"
 )
 
 type account struct{}

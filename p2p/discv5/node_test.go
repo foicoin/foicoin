@@ -27,8 +27,8 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/crypto"
 )
 
 func ExampleNewNode() {

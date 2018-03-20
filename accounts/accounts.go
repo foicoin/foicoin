@@ -20,10 +20,10 @@ package accounts
 import (
 	"math/big"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
+	ethereum "github.com/foicoin/foicoin"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/core/types"
+	"github.com/foicoin/foicoin/event"
 )
 
 // Account represents an Ethereum account located at a specific location defined

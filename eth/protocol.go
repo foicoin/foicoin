@@ -21,11 +21,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/core"
+	"github.com/foicoin/foicoin/core/types"
+	"github.com/foicoin/foicoin/event"
+	"github.com/foicoin/foicoin/rlp"
 )
 
 // Constants to match up protocol versions and messages

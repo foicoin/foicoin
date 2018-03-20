@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/common/hexutil"
+	"github.com/foicoin/foicoin/rlp"
 )
 
 //go:generate gencodec -type Log -field-override logMarshaling -out gen_log_json.go

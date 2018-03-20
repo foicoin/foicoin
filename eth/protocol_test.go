@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/core/types"
+	"github.com/foicoin/foicoin/crypto"
+	"github.com/foicoin/foicoin/eth/downloader"
+	"github.com/foicoin/foicoin/p2p"
+	"github.com/foicoin/foicoin/rlp"
 )
 
 func init() {

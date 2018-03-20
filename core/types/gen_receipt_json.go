@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/common/hexutil"
 )
 
 var _ = (*receiptMarshaling)(nil)

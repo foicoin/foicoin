@@ -28,9 +28,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/swarm/api"
+	"github.com/foicoin/foicoin/log"
+	"github.com/foicoin/foicoin/metrics"
+	"github.com/foicoin/foicoin/swarm/api"
 )
 
 //templateMap holds a mapping of an HTTP error code to a template

@@ -23,14 +23,14 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/consensus/ethash"
+	"github.com/foicoin/foicoin/core"
+	"github.com/foicoin/foicoin/core/types"
+	"github.com/foicoin/foicoin/crypto"
+	"github.com/foicoin/foicoin/ethdb"
+	"github.com/foicoin/foicoin/event"
+	"github.com/foicoin/foicoin/params"
 )
 
 func makeReceipt(addr common.Address) *types.Receipt {

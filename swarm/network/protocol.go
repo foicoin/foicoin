@@ -37,13 +37,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ethereum/go-ethereum/contracts/chequebook"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	bzzswap "github.com/ethereum/go-ethereum/swarm/services/swap"
-	"github.com/ethereum/go-ethereum/swarm/services/swap/swap"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/foicoin/foicoin/contracts/chequebook"
+	"github.com/foicoin/foicoin/log"
+	"github.com/foicoin/foicoin/metrics"
+	"github.com/foicoin/foicoin/p2p"
+	bzzswap "github.com/foicoin/foicoin/swarm/services/swap"
+	"github.com/foicoin/foicoin/swarm/services/swap/swap"
+	"github.com/foicoin/foicoin/swarm/storage"
 )
 
 //metrics variables

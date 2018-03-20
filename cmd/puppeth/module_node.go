@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Ethereum node.

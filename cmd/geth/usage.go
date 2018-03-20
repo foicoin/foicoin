@@ -24,8 +24,8 @@ import (
 
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/internal/debug"
+	"github.com/foicoin/foicoin/cmd/utils"
+	"github.com/foicoin/foicoin/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 )
 

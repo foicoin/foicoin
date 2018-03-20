@@ -25,16 +25,16 @@ import (
 	"testing"
 	"time"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	ethereum "github.com/foicoin/foicoin"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/consensus/ethash"
+	"github.com/foicoin/foicoin/core"
+	"github.com/foicoin/foicoin/core/bloombits"
+	"github.com/foicoin/foicoin/core/types"
+	"github.com/foicoin/foicoin/ethdb"
+	"github.com/foicoin/foicoin/event"
+	"github.com/foicoin/foicoin/params"
+	"github.com/foicoin/foicoin/rpc"
 )
 
 type testBackend struct {

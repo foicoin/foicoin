@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/foicoin/foicoin/core/state"
+	"github.com/foicoin/foicoin/core/types"
+	"github.com/foicoin/foicoin/params"
 )
 
 var (

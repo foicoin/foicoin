@@ -29,9 +29,9 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/api"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/log"
+	"github.com/foicoin/foicoin/swarm/api"
 )
 
 var (

@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/foicoin/foicoin/accounts"
+	"github.com/foicoin/foicoin/accounts/keystore"
+	"github.com/foicoin/foicoin/accounts/usbwallet"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/crypto"
+	"github.com/foicoin/foicoin/log"
+	"github.com/foicoin/foicoin/p2p"
+	"github.com/foicoin/foicoin/p2p/discover"
 )
 
 const (

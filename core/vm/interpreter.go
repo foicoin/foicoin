@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/foicoin/foicoin/common/math"
+	"github.com/foicoin/foicoin/params"
 )
 
 // Config are the configuration options for the Interpreter

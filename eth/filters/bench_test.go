@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/common/bitutil"
+	"github.com/foicoin/foicoin/core"
+	"github.com/foicoin/foicoin/core/bloombits"
+	"github.com/foicoin/foicoin/core/types"
+	"github.com/foicoin/foicoin/ethdb"
+	"github.com/foicoin/foicoin/event"
+	"github.com/foicoin/foicoin/node"
 )
 
 func BenchmarkBloomBits512(b *testing.B) {

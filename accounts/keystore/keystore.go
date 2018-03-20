@@ -33,11 +33,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/foicoin/foicoin/accounts"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/core/types"
+	"github.com/foicoin/foicoin/crypto"
+	"github.com/foicoin/foicoin/event"
 )
 
 var (

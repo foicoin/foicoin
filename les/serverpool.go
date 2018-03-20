@@ -27,13 +27,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/foicoin/foicoin/common/mclock"
+	"github.com/foicoin/foicoin/ethdb"
+	"github.com/foicoin/foicoin/log"
+	"github.com/foicoin/foicoin/p2p"
+	"github.com/foicoin/foicoin/p2p/discover"
+	"github.com/foicoin/foicoin/p2p/discv5"
+	"github.com/foicoin/foicoin/rlp"
 )
 
 const (

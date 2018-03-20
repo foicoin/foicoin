@@ -22,14 +22,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/ens"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/services/swap"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/foicoin/foicoin/common"
+	"github.com/foicoin/foicoin/contracts/ens"
+	"github.com/foicoin/foicoin/crypto"
+	"github.com/foicoin/foicoin/log"
+	"github.com/foicoin/foicoin/node"
+	"github.com/foicoin/foicoin/swarm/network"
+	"github.com/foicoin/foicoin/swarm/services/swap"
+	"github.com/foicoin/foicoin/swarm/storage"
 )
 
 const (

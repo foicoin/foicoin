@@ -38,9 +38,9 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/foicoin/foicoin/core/state"
+	"github.com/foicoin/foicoin/crypto"
+	"github.com/foicoin/foicoin/params"
 )
 
 type JitVm struct {

@@ -27,12 +27,12 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/foicoin/foicoin/core"
+	"github.com/foicoin/foicoin/core/types"
+	"github.com/foicoin/foicoin/internal/debug"
+	"github.com/foicoin/foicoin/log"
+	"github.com/foicoin/foicoin/node"
+	"github.com/foicoin/foicoin/rlp"
 )
 
 const (
